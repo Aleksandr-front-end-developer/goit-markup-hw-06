@@ -920,6 +920,7 @@ img {
 .checkbox__link {
 	color: var(--color-accent);
 	text-decoration-line: underline;
+	transition: color var(--transition-duration) var(--transition-function);
 }
 
 .checkbox__link:hover {
