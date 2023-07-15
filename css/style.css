@@ -871,13 +871,13 @@ img {
 	position: relative;
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	column-gap: 7px;
 	margin-bottom: 30px;
 }
 
 .checkbox__icons {
 	position: relative;
-	top: 3px;
 	width: 16px;
 	height: 15px;
 }
