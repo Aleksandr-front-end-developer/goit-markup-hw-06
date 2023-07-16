@@ -874,6 +874,7 @@ img {
 	align-items: center;
 	column-gap: 7px;
 	margin-bottom: 30px;
+
 }
 
 .checkbox__icons {
@@ -908,6 +909,11 @@ img {
 
 .checkbox__input:checked+.checkbox__icons .checkbox__icon--off {
 	opacity: 0;
+}
+
+.checkbox__input:focus+.checkbox__icons {
+	outline: 2px solid black;
+	border-radius: 2px;
 }
 
 .checkbox__label {
